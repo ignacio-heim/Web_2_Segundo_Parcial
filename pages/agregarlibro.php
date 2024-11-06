@@ -41,15 +41,16 @@
                         while($fila=mysqli_fetch_array($resultado)){
                             print "<option value=$fila[id_genero]>".ucfirst($fila['genero'])."</option>";
                         }
-
                     }
-
+                        
                 ?>
             </select>
+            <a href='agregar_genero.php'>Agregar género</a>
         </div>
         <div>
             <input type="submit" value="Cargar libro" >
         </div>
+        
 
     </form>
 </section>

@@ -11,8 +11,8 @@
                 <tr>
                     <th>Titulo</th>
                     <th>Autor</th>
-                    <th>Anio Publicación</th>
-                    <th>Anio Lectura</th>
+                    <th>Año Publicación</th>
+                    <th>Año Lectura</th>
                     <th>Puntuacion</th>
                     <th>Genero</th>
                 </tr> 
@@ -27,7 +27,7 @@
         while($fila = mysqli_fetch_array($resultado)){
             print " 
                 <tr>
-                    <td>$fila[titulo]</td>
+                    <td><a href='libro.php?id=$fila[id_libro]'>$fila[titulo]</a></td>
                     <td>$fila[autor]</td>
                     <td>$fila[anio_publicacion]</td>
                     <td>$fila[anio_lectura]</td>

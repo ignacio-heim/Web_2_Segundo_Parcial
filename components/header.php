@@ -14,6 +14,7 @@
 
         $enlaces['Home'] = 'inicio.php';
         $enlaces['Agregar Libro'] = 'agregarlibro.php';
+        $enlaces['Agregar Género'] = 'agregar_genero.php';
         $enlaces['Quien soy'] = 'quien.php';
 
         foreach($enlaces as $link=>$url){

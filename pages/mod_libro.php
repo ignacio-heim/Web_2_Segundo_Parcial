@@ -19,7 +19,7 @@ require_once("../components/config/conf.php");
 
         while($fila = mysqli_fetch_array($resultado)){
             print "
-                <form action=../admin/mod/mod_ok.php  method=get>
+                <form action=../admin/mod/mod_libro_ok.php  method=get>
                     <input type=hidden name=id value=$fila[id_libro]>
                     <div>
                         <label for='titulo'>Titulo</label>
