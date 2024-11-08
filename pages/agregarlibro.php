@@ -48,6 +48,19 @@
             <a href='agregar_genero.php'>Agregar género</a>
         </div>
         <div>
+            <label for="hojas">Cantidad Hojas</label>
+            <input id="hojas" name="hojas" type="number">
+        </div>
+        <div>
+            <label for="sinopsis">Sinopsis</label>
+            <textarea name="sinopsis" id="sinopsis" rows="4" cols="50"></textarea>            
+        </div>
+        <div>
+            <label for="opinion">Opinión</label>
+            <textarea name="opinion" id="opinion" rows="4" cols="50"></textarea>            
+        </div>
+        <div>
+        <div>
             <input type="submit" value="Cargar libro" >
         </div>
         

@@ -31,7 +31,7 @@
                     <td>$fila[autor]</td>
                     <td>$fila[anio_publicacion]</td>
                     <td>$fila[anio_lectura]</td>
-                    <td>$fila[puntiacion]</td>
+                    <td>$fila[puntuacion]</td>
                     <td>".ucfirst($fila['genero'])."</td>                    
                     <td><a href='mod_libro.php?id=$fila[id_libro]'>Modificar</a></td>
                     <td><a href='../admin/baja/baja_libro.php?id=$fila[id_libro]'>Eliminar</a></td>

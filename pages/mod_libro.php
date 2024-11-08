@@ -39,7 +39,7 @@ require_once("../components/config/conf.php");
                     </div>
                     <div>
                         <label>Puntuacion</label>
-                        <input type=number name=puntuacion value=$fila[puntiacion]>
+                        <input type=number name=puntuacion value=$fila[puntuacion]>
                     </div>
                     
                     <div>
@@ -58,7 +58,23 @@ require_once("../components/config/conf.php");
 
                                 }
                         
-            print            "</select>
+            print "
+            </select>
+            </div>      
+            <div>
+                <label for=hojas>Cantidad Hojas</label>
+                <input id=hojas name=hojas type=number value=$fila[cantidad_hojas]>
+            </div>
+            <div>
+                <label for=sinopsis>Sinopsis</label>
+                <textarea name=sinopsis id=sinopsis rows=4 cols=50 value=$fija[sinopsis]></textarea>            
+            </div>
+            <div>
+                <label for=opinion>Opinión</label>
+                <textarea name=opinion id=opinion rows=4 cols=50 value=$fija[opinion]></textarea>            
+            </div>
+            <div>
+            
                     </div>
                     <input type=submit value=Modificar >
 

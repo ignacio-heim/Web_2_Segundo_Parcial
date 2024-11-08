@@ -25,12 +25,17 @@
                     </div>
                     
                     <section>
-                        <h3>Frases</h3>
-                        <div>
+                        <h3>Frases</h3>";
+                        if($fila['frase']==NULL){
+                            print "No hay frases cargadas";
+                        } else {
+                        print "<div>
                             <p>$fila[frase]</p>
                         </div>
-                        <a href='agregar_frase.php?id=$fila[id_libro]'>Agregar Frase</a>
-                    </section>
+                        
+                    </section>";
+                        }
+                    "<a href='agregar_frase.php?id=$fila[id_libro]'>Agregar Frase</a>    
                         ";
             }
         }

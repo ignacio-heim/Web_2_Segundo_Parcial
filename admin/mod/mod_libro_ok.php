@@ -26,7 +26,7 @@ if($con!=NULL){
 
 
         
-        $consulta = "UPDATE `libro` SET `titulo`='$titulo', `autor`='$autor', `anio_publicacion`='$anio_pub', `anio_lectura`='$anio_lec',`puntiacion`='$puntuacion',`fk_genero`='$genero'  WHERE id_libro='$id'";
+        $consulta = "UPDATE `libro` SET `titulo`='$titulo', `autor`='$autor', `anio_publicacion`='$anio_pub', `anio_lectura`='$anio_lec',`puntuacion`='$puntuacion',`fk_genero`='$genero'  WHERE id_libro='$id'";
 
         //ejecuto la consulta
         mysqli_query($con,$consulta);
