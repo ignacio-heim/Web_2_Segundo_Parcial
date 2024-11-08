@@ -4,6 +4,7 @@
     require_once("../components/config/conf.php");
 
 ?>
+<main class="margin-main-section">
 
 <h1>Pagina principal</h1>
 
@@ -41,7 +42,7 @@
 
 ?>
  </table>
-
+ <main>
 
 <?php
 

@@ -23,19 +23,26 @@
                         <h1>$fila[titulo]</h1>
                         <h2>$fila[autor]</h2>
                     </div>
-                    
+                    <section>
+                    <h3>Sinopsis</h3>
+                    <p>$fila[sinopsis]</p>
+                    </section>
+                    <section>
+                    <h3>Opinion</h3>
+                    <p>$fila[opinion]</p>
+                    </section>
                     <section>
                         <h3>Frases</h3>";
                         if($fila['frase']==NULL){
                             print "No hay frases cargadas";
                         } else {
-                        print "<div>
-                            <p>$fila[frase]</p>
-                        </div>
+                        print "<ul>
+                            <li>$fila[frase]</li>
+                        </ul>
                         
                     </section>";
                         }
-                    "<a href='agregar_frase.php?id=$fila[id_libro]'>Agregar Frase</a>    
+                    print "<div><a href='agregar_frase.php?id=$fila[id_libro]'>Agregar Frase</a></div>    
                         ";
             }
         }

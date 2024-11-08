@@ -1,0 +1,29 @@
+.bg-img {
+    background-image: url("../img/books-nav-6.JPG");
+    min-height: 350px;
+}
+
+
+.li-nav {
+    list-style-type: none;
+}
+
+.display-nav {
+    display: flex;
+        
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.nav-a-effect:link, .nav-a-effect:visited {
+    color: black;
+    padding: 10px;
+}
+
+.nav-a-effect:hover {
+    background-color: black;
+    color: white;
+    
+}
