@@ -21,6 +21,18 @@
             <input id="anio_pub" name="anio_pub" type="number">
         </div>
         <div>
+            <label for="editorial">Editorial</label>
+            <input id="editorial" name="editorial" type="text">
+        </div>
+        <div>
+            <label for="prologo">Autor Prólogo</label>
+            <input id="prologo" name="prologo" type="text">
+        </div>
+        <div>
+            <label for="tradcutor">Autor Traductor</label>
+            <input id="tradcutor" name="tradcutor" type="text">
+        </div>
+        <div>
             <label for="anio_leido">Año de lectura</label>
             <input id="anio_leido" name="anio_leido" type="number">
         </div>

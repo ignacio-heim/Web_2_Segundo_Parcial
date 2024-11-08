@@ -34,6 +34,18 @@ require_once("../components/config/conf.php");
                         <input type=number name=anio_pub value=$fila[anio_publicacion]>
                     </div>
                     <div>
+                        <label for=editorial>Editorial</label>
+                        <input id=editorial name=editorial type=text value=$fila[editorial]>
+                    </div>
+                    <div>
+                        <label for=prologo>Autor Prólogo</label>
+                        <input id=prologo name=prologo type=text value=$fila[autor_prologo]>
+                    </div>
+                    <div>
+                        <label for=traductor>Autor Traductor</label>
+                        <input id=traductor name=traductor type=text value=$fila[autor_traduccion]>
+                    </div>
+                    <div>
                         <label>Anio Lectura</label>
                         <input type=number name=anio_lec value=$fila[anio_lectura]>
                     </div>
